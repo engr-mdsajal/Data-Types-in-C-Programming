@@ -2,6 +2,16 @@
 #include<stdio.h>
 int main(){
 
+
+    //char data type
+   char ch_value;
+
+   printf("Enter Your Character Value= ");
+   scanf("%c",&ch_value);
+   printf("Character Value is= %c\n",ch_value);
+   printf("Size of Character Value= %d\n",sizeof(ch_value));
+
+
    //integer data type
    int integer_value;
 
@@ -54,13 +64,7 @@ int main(){
    printf("Long Double Value is= %Lf\n",long_double_value);
    printf("Size of long double Value= %d\n",sizeof(long_double_value));
 
-   //char data type
-   char ch_value;
 
-   printf("Enter Your Character Value= ");
-   scanf("%c",&ch_value);
-   printf("Character Value is= %c\n",ch_value);
-   printf("Size of Character Value= %d\n",sizeof(ch_value));
 
 
 
